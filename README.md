@@ -9,7 +9,6 @@ This project focuses on detecting bacteria in images using the YOLOv8 object det
 - [Image Augmentation](#image-augmentation)
 - [Training](#training)
 - [Results](#results)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -55,17 +54,6 @@ The trained model's performance is evaluated on the validation and testing datas
 - Mean Average Precision (mAP) for overall detection accuracy.
 - Visualizations of detection results on sample images.
 
-## Usage
-
-To use this project:
-
-1. Clone the repository: `git clone https://github.com/your-username/bacteria-detection.git`
-2. Set up the required environment and dependencies.
-3. Prepare your dataset and annotations.
-4. Configure training parameters and YOLOv8 architecture in the configuration files.
-5. Run the training script: `python train.py`.
-6. Evaluate the model on validation or test data: `python evaluate.py`.
-7. Use the trained model for inference on new images: `python infer.py`.
 
 ## Contributing
 
